@@ -15,6 +15,7 @@ integrations-source = "anddea/revanced-integrations"
 rv-brand = "anddea ReVanced Afn Red Icon"
 build-mode = "both"
 included-patches = "'Custom branding icon YouTube' 'MaterialYou'"
+excluded-patches = "'Theme'"
 
 [YouTube Music]
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -23,3 +24,4 @@ integrations-source = "anddea/revanced-integrations"
 rv-brand = "anddea ReVanced Afn Red Icon"
 build-mode = "both"
 included-patches = "'Custom branding icon YouTube Music'"
+excluded-patches = "'Amoled'"

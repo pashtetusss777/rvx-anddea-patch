@@ -15,6 +15,7 @@ integrations-source = "anddea/revanced-integrations"
 rv-brand = "anddea ReVanced"
 build-mode = "both"
 included-patches = "'MaterialYou'"
+excluded-patches = "'Theme'"
 
 [YouTube Music]
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -22,3 +23,4 @@ patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "anddea ReVanced"
 build-mode = "both"
+excluded-patches = "'Amoled'"
