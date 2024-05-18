@@ -478,7 +478,7 @@ jobs:
          echo "${DELIM}" >> "$GITHUB_OUTPUT"
          cp -f build.md build_rvxar.tmp
 
-     - run: sleep 40
+     - run: sleep 45
 
      - name: Upload modules to release
        uses: svenstaro/upload-release-action@v2
