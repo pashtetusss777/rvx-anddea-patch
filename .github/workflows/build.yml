@@ -323,9 +323,8 @@ jobs:
          skip_checkout: false
          file_pattern: build_rvxr.md *-rvxr-update.json
          commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-    
-build_rvxy:
-  #  needs: build_rvxy
+ build_rvxy:
+  #  needs: build_rvxr
    runs-on: ubuntu-latest
    steps:
      - name: Checkout
@@ -427,8 +426,7 @@ build_rvxy:
          skip_fetch: false
          skip_checkout: false
          file_pattern: build_rvxy.md *-rvxy-update.json
-         commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}    
- 
+         commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
  build_rvxab:
   #  needs: build_rvxy
    runs-on: ubuntu-latest
