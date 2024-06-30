@@ -63,6 +63,8 @@ jobs:
          echo "${DELIM}" >> "$GITHUB_OUTPUT"
          cp -f build.md build_original.tmp
 
+     - run: sleep 20    
+
      - name: Upload modules to release
        uses: svenstaro/upload-release-action@v2
        with:
@@ -167,7 +169,7 @@ jobs:
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build_rvxb.tmp
 
-      - run: sleep 10
+      - run: sleep 40
 
       - name: Upload modules to release
         uses: svenstaro/upload-release-action@v2
@@ -270,7 +272,7 @@ jobs:
          echo "${DELIM}" >> "$GITHUB_OUTPUT"
          cp -f build.md build_rvxr.tmp
 
-     - run: sleep 20
+     - run: sleep 60
 
      - name: Upload modules to release
        uses: svenstaro/upload-release-action@v2
@@ -374,7 +376,7 @@ jobs:
          echo "${DELIM}" >> "$GITHUB_OUTPUT"
          cp -f build.md build_rvxy.tmp
 
-     - run: sleep 30
+     - run: sleep 80
 
      - name: Upload modules to release
        uses: svenstaro/upload-release-action@v2
@@ -478,7 +480,7 @@ jobs:
          echo "${DELIM}" >> "$GITHUB_OUTPUT"
          cp -f build.md build_rvxab.tmp
 
-     - run: sleep 40
+     - run: sleep 100
 
      - name: Upload modules to release
        uses: svenstaro/upload-release-action@v2
@@ -582,7 +584,7 @@ jobs:
          echo "${DELIM}" >> "$GITHUB_OUTPUT"
          cp -f build.md build_rvxar.tmp
 
-     - run: sleep 55
+     - run: sleep 120
 
      - name: Upload modules to release
        uses: svenstaro/upload-release-action@v2
@@ -686,7 +688,7 @@ jobs:
          echo "${DELIM}" >> "$GITHUB_OUTPUT"
          cp -f build.md build_rvxm.tmp
 
-     - run: sleep 65
+     - run: sleep 140
 
      - name: Upload modules to release
        uses: svenstaro/upload-release-action@v2
@@ -790,7 +792,7 @@ jobs:
          echo "${DELIM}" >> "$GITHUB_OUTPUT"
          cp -f build.md build_rvxmb.tmp
 
-     - run: sleep 75
+     - run: sleep 160
 
      - name: Upload modules to release
        uses: svenstaro/upload-release-action@v2
@@ -894,7 +896,7 @@ jobs:
          echo "${DELIM}" >> "$GITHUB_OUTPUT"
          cp -f build.md build_rvxmg.tmp
 
-     - run: sleep 85
+     - run: sleep 180
 
      - name: Upload modules to release
        uses: svenstaro/upload-release-action@v2
@@ -998,7 +1000,7 @@ jobs:
          echo "${DELIM}" >> "$GITHUB_OUTPUT"
          cp -f build.md build_rvxmy.tmp
 
-     - run: sleep 95
+     - run: sleep 200
 
      - name: Upload modules to release
        uses: svenstaro/upload-release-action@v2
