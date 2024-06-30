@@ -738,8 +738,8 @@ jobs:
         skip_fetch: false
         skip_checkout: false
         file_pattern: build_rvxm.md *-rvxm-update.json
-        commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-build_rvxmb:
+        commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}        
+ build_rvxmb:
   #  needs: build_rvxm
    runs-on: ubuntu-latest
    steps:
@@ -842,8 +842,8 @@ build_rvxmb:
         skip_fetch: false
         skip_checkout: false
         file_pattern: build_rvxmb.md *-rvxmb-update.json
-        commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-build_rvxmg:
+        commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}        
+ build_rvxmg:
   #  needs: build_rvxmb
    runs-on: ubuntu-latest
    steps:
@@ -946,8 +946,8 @@ build_rvxmg:
         skip_fetch: false
         skip_checkout: false
         file_pattern: build_rvxmg.md *-rvxmg-update.json
-        commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-build_rvxmy:
+        commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}        
+ build_rvxmy:
   #  needs: build_rvxmg
    runs-on: ubuntu-latest
    steps:
