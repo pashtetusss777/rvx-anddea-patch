@@ -1,6 +1,6 @@
 [
     {
-      "patchName": "Custom package name",
+      "patchName": "GmsCore support",
       "options": [
         {
           "key": "PackageNameYouTubeMusic",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "patchName": "Custom package name",
+      "patchName": "GmsCore support",
       "options": [
         {
           "key": "PackageNameYouTube",
